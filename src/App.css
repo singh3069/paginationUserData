@@ -21,6 +21,10 @@
   list-style: none;
 }
 
+.paginationContainer li a {
+  cursor: pointer;
+}
+
 .previousBttn {
   border: 2px solid black;
   cursor: pointer;
