@@ -3,11 +3,11 @@ import ReactPaginate from "react-paginate";
 
 function User() {
   const [user, setUser] = useState([]);
-  const [dataPage, setDataPage] = useState(0);
+  const [dataPage, setDataPage] = useState(1);
   const pageCounts = 3;
 
   useEffect(() => {
-    const url = `https:reqres.in/api/users?page=${dataPage}`;
+    const url = `https://reqres.in/api/users?page=${dataPage}`;
 
     const fetchData = async () => {
       try {
