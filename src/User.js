@@ -3,7 +3,7 @@ import ReactPaginate from "react-paginate";
 
 function User() {
   const [user, setUser] = useState([]);
-  const [dataPage, setDataPage] = useState("0");
+  const [dataPage, setDataPage] = useState(0);
   const pageCounts = 3;
 
   useEffect(() => {
